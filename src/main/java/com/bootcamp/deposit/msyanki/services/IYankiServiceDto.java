@@ -7,6 +7,5 @@ public interface IYankiServiceDto {
 
     Mono<YankiDocumentDto> findByCustomerIdentityNumber(String customerIdentityNumber);
 
-
     Mono<YankiDocumentDto> updateYanki(YankiDocumentDto yankiDocument);
 }
